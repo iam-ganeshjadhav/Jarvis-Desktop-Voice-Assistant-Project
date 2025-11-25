@@ -1,0 +1,36 @@
+pipeline {
+  agent any
+
+  environment {
+    EC2_HOST = "ubuntu@<EC2_PUBLIC_IP>"
+    APP_DIR  = "/opt/jarvis"
+  }
+
+  triggers {
+    githubPush()
+  }
+
+  stages {
+    stage("Checkout") {
+      steps {
+        checkout scm
+      }
+    }
+
+    stage("Deploy to EC2") {
+      steps {
+        sshagent(credentials: ["ec2-ssh-key"]) {
+          sh """
+            ssh -o StrictHostKeyChecking=no ${EC2_HOST} '
+              cd ${APP_DIR} &&
+              git pull &&
+              /opt/jarvis/venv/bin/pip install -r requirements.txt &&
+              sudo systemctl restart jarvis &&
+              sudo systemctl status jarvis --no-pager
+            '
+          """
+        }
+      }
+    }
+  }
+}
