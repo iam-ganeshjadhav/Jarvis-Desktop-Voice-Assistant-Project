@@ -113,7 +113,7 @@ Terraform automatically:
 - Creates virtual environment  
 - Creates & starts `jarvis.service`
   
-main.tf
+**main.tf**
 ```
 terraform {
   required_providers {
@@ -244,7 +244,7 @@ EOF
 }
 ```
 
-variables.tf
+**variables.tf**
 ```
 variable "aws_region" {
   default = "ap-south-1"
