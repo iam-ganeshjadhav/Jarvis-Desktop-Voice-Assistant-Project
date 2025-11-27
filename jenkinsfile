@@ -20,6 +20,7 @@ pipeline {
       steps {
         sshagent(['node-key']) {
           sh '''
+          sh 'ssh -o StrictHostKeyChecking=no ubuntu@13.126.157.57 "echo Connected"'
           rsync -avz --delete --exclude venv . ${TARGET}:/opt/jarvis
           ssh ${TARGET} "sudo systemctl restart jarvis"
           '''
