@@ -2,10 +2,7 @@
 ### Fully Automated Deployment Using **AWS EC2 + Terraform + Jenkins CI/CD**
 
 
-<video src="IMG/5.mp4" 
-       controls 
-       width="700">
-</video>
+[![Watch the video](IMG/5.mp4)]
 
 
 
