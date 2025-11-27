@@ -2,11 +2,7 @@
 ### Fully Automated Deployment Using **AWS EC2 + Terraform + Jenkins CI/CD**
 
 
-<video src="https://github.com/iam-ganeshjadhav/Jarvis-Desktop-Voice-Assistant-Project/IMG/5.mp4" 
-       controls 
-       width="600">
-</video>
-
+https://github.com/iam-ganeshjadhav/Jarvis-Desktop-Voice-Assistant-Project/IMG/5.mp4
 
 
 
