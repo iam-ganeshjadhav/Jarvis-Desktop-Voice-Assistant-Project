@@ -2,7 +2,7 @@
 ### Fully Automated Deployment Using **AWS EC2 + Terraform + Jenkins CI/CD**
 
 
-[![Watch the video](IMG/5.mp4)]
+[![Watch the video](IMG/5.gif)]
 
 
 ---
