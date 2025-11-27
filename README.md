@@ -5,14 +5,6 @@
 [![Watch the video](IMG/5.mp4)]
 
 
-
-
-
-
-
-
-
-
 ---
 
 ## 📌 Project Overview
@@ -353,10 +345,10 @@ Runs automatically on every reboot.
 
 | Screenshot | Description |
 |-----------|-------------|
-| ![Jarvis Architecture](images/architecture.png) | Jarvis Architecture |
-| ![Terraform Apply](images/terraform.png) | Terraform Apply |
-| ![Jenkins Pipeline](images/jenkins.png) | Jenkins Pipeline |
-| ![EC2 Deployment](images/ec2.png) | EC2 Deployment |
+| ![Jarvis Architecture](IMG/1.png) | ec2 running Project |
+| ![Terraform Apply](IMG/2.png) | Terraform Apply |
+| ![Jenkins Pipeline](IMG/3.png) | Jenkins Pipeline |
+| ![EC2 Deployment](IMG/4.png) | EC2 Deployment |
 
 ## 📚 What I Learned (Key Skills)
 
