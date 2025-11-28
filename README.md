@@ -28,6 +28,8 @@ This makes the project a perfect combination of **Python + Cloud + DevOps**.
 
 ## 🏗️ System Architecture
 
+[![W](IMG/6.jpg)]
+
 
 - **Terraform** provisions:  
   - EC2 instance  
