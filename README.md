@@ -2,7 +2,7 @@
 ### Fully Automated Deployment Using **AWS EC2 + Terraform + Jenkins CI/CD**
 
 
-[![Watch the video](IMG/5.gif)]
+![Watch the video](IMG/5.gif)
 
 
 ---
@@ -28,7 +28,7 @@ This makes the project a perfect combination of **Python + Cloud + DevOps**.
 
 ## 🏗️ System Architecture
 
-[![W](IMG/6.jpg)]
+![W](IMG/6.jpg)
 
 
 - **Terraform** provisions:  
